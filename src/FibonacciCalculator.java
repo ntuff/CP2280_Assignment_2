@@ -12,6 +12,23 @@
  */
 
 public class FibonacciCalculator {
+    //    public||private static final int F_0 = 0;
+    //    public||private static final int F_1 = 1;
+    public int number;
+
+//    public fibonacciCalculator(int number){
+//        this.number = number;
+//    }
+
+    public void setNumber(int number) {
+        this.number = number;
+    }
+
+    public int getNumber(int number){
+        return number;
+    }
+
+
     /**
      * Check to see if an integer is a perfect square
      * @param number integer to check
