@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c18874c-221d-4301-97ec-d87f0a186e6c" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/src/FibonacciCalculatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrimeNumberCalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FibonacciCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FibonacciCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FibonacciCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FibonacciCalculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +61,8 @@
       <updated>1666184845680</updated>
       <workItem from="1666184847227" duration="2883000" />
       <workItem from="1666281521360" duration="6971000" />
-      <workItem from="1666351995535" duration="4521000" />
+      <workItem from="1666351995535" duration="4539000" />
+      <workItem from="1666365407776" duration="3291000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1666187636343</created>
@@ -78,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666288113396</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary=".">
+      <created>1666356589657</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666356589657</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
