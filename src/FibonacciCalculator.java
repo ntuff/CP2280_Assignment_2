@@ -12,20 +12,23 @@
  */
 
 public class FibonacciCalculator {
-    //    public||private static final int F_0 = 0;
-    //    public||private static final int F_1 = 1;
     public int number;
-
-//    public fibonacciCalculator(int number){
-//        this.number = number;
-//    }
+    public int n;
 
     public void setNumber(int number) {
         this.number = number;
     }
 
-    public int getNumber(int number){
+    public int getNumber(int number) {
         return number;
+    }
+
+    public void setN(int n) {
+        this.n = n;
+    }
+
+    public int getN(int n) {
+        return n;
     }
 
 
@@ -51,24 +54,16 @@ public class FibonacciCalculator {
                 isPerfectSquare(5 * number * number - 4);
     }
 
-    /**
-     * Get the nth number in the Fibonacci sequence
-     * @param n the position in the Fibonacci sequence
-     * @return value of the nth Fibonacci number
-     */
+
     public int getFibonacciNumber(int n){
-        if (n <= 1){
-            return n;}
-
-        int a = 0, b = 1, c = 1;
-        int counter = 1;
-
-        while (c < n){
-            c = a + b;
-            counter++;
-            a = b;
-            b = c;
+        if(n == 0){
+            return 0;
         }
-        return counter;
+        else if(n == 1){
+            return 1;
+        }
+        else{
+            return getFibonacciNumber(n-2) + getFibonacciNumber(n-1);
+        }
     }
 }
