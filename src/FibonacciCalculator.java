@@ -12,24 +12,24 @@
  */
 
 public class FibonacciCalculator {
-    public int number;
-    public int n;
-
-    public void setNumber(int number) {
-        this.number = number;
-    }
-
-    public int getNumber(int number) {
-        return number;
-    }
-
-    public void setN(int n) {
-        this.n = n;
-    }
-
-    public int getN(int n) {
-        return n;
-    }
+//    public int number;
+//    public int n;
+//
+//    public void setNumber(int number) {
+//        this.number = number;
+//    }
+//
+//    public int getNumber(int number) {
+//        return number;
+//    }
+//
+//    public void setN(int n) {
+//        this.n = n;
+//    }
+//
+//    public int getN(int n) {
+//        return n;
+//    }
 
 
     /**
@@ -37,7 +37,7 @@ public class FibonacciCalculator {
      * @param number integer to check
      * @return true if n is a perfect square
      */
-    public boolean isPerfectSquare(int number)
+    private static boolean isPerfectSquare(int number)
     {
         int square = (int) Math.sqrt(number);
         return (square*square == number);
@@ -49,13 +49,17 @@ public class FibonacciCalculator {
      * @param number integer to check
      * @return true if n is a Fibonacci number
      */
-    public boolean isFibonacciNumber(int number){
+    public static boolean isFibonacciNumber(int number){
         return isPerfectSquare(5 * number * number + 4) ||
                 isPerfectSquare(5 * number * number - 4);
     }
 
-
-    public int getFibonacciNumber(int n){
+    /**
+     * Returns the nth fibonacci number
+     * @param n
+     * @return
+     */
+    public static int getFibonacciNumber(int n){
         if(n == 0){
             return 0;
         }
