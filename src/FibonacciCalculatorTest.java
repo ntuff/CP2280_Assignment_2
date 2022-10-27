@@ -29,7 +29,7 @@ public class FibonacciCalculatorTest {
         //Test 4:  displays all the Fibonacci numbers less than a value input by the user
         System.out.println("Test 4:");
         int n2 = 14;
-        for(int i = 0; i < FibonacciCalculator.getFibonacciNumber(n2); i++){
+        for(int i = 0; FibonacciCalculator.getFibonacciNumber(i) <= n2; i++){
             System.out.println(FibonacciCalculator.getFibonacciNumber(i));}
 
 

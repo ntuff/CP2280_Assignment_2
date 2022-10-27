@@ -3,8 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="4c18874c-221d-4301-97ec-d87f0a186e6c" name="Changes" comment=".">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FibonacciCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FibonacciCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FibonacciCalculatorApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FibonacciCalculatorApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FibonacciCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FibonacciCalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PrimeNumberCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrimeNumberCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PrimeNumberCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrimeNumberCalculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +23,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -38,7 +40,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.FibonacciCalculatorTest">
+  <component name="RunManager" selected="Application.PrimeNumberCalculatorTest">
     <configuration name="FibonacciCalculatorApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FibonacciCalculatorApplication" />
       <module name="CP2280_Assignment_2" />
@@ -53,10 +55,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PrimeNumberCalculatorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrimeNumberCalculatorTest" />
+      <module name="CP2280_Assignment_2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FibonacciCalculatorTest" />
+        <item itemvalue="Application.PrimeNumberCalculatorTest" />
         <item itemvalue="Application.FibonacciCalculatorApplication" />
+        <item itemvalue="Application.FibonacciCalculatorTest" />
       </list>
     </recent_temporary>
   </component>

@@ -18,15 +18,15 @@ public class FibonacciCalculatorApplication {
             if(c=='A'){
                 System.out.println("Enter number: ");
                 int n = input.nextInt();
-                for(int i = 0; i <= n; i++){
+                for(int i = 0; FibonacciCalculator.getFibonacciNumber(i) <= n; i++){
                     System.out.println(FibonacciCalculator.getFibonacciNumber(i));}
-
-
 
 
             } else  if(c=='B'){
                 System.out.println("Enter number: ");
-
+                int n = input.nextInt();
+                for(int i = 0; i <= n; i++){
+                    System.out.println(FibonacciCalculator.getFibonacciNumber(i));}
 
             } else if (c=='C'){
                 System.out.println("Enter number: ");
@@ -44,7 +44,6 @@ public class FibonacciCalculatorApplication {
         System.out.println("(A) Display all fibonacci numbers less than 'n'");
         System.out.println("(B) Print 'n' fibonacci numbers");
         System.out.println("(C) Determine if a number is a fibonacci number");
-        //System.out.println("(D) todo");
         System.out.println("(Q) Quit");
     }
 }

@@ -12,13 +12,36 @@
 
 public class PrimeNumberCalculator {
     /**
-     *
+     * returns the number's lowest common denominator or number
+     * @param number integer to check
+     * @return lowest common denominator or prime number
+     */
+    public static int getLowestCommonDenominator(int number){
+        //TODO: Change this to back to private
+        if(number == 0) {
+            return 0;
+        }
+        if(number % 2 == 0) {
+            return 2;
+        }
+        for (int i = 3; i < Math.sqrt(number); i++){
+            if (number % i == 0){
+                return i;
+            }
+        }
+        return number;
+    }
+
+    /**
+     * Check to see if a number is prime
      * @param number integer to check
      * @return true if number is prime
      */
-    public boolean isPrime(int number){
-        //TODO: Write this method
-        return false;
+    public static boolean isPrime(int number){
+        if (number <= 1){
+            return false;
+        }else{
+            return number == getLowestCommonDenominator(number);}
     }
 
     /**
@@ -26,9 +49,13 @@ public class PrimeNumberCalculator {
      * @param number
      * @return
      */
-    public String getUniquePrimeFactorization(int number){
-        //TODO: Write this method
-        return "";
+    public static String getUniquePrimeFactorization(int number){
+
+        int i = getLowestCommonDenominator(number);
+        if (i == number) {
+            return String.valueOf(i);
+        }
+        return i + " * " + getUniquePrimeFactorization(number / i);
     }
 
 }
