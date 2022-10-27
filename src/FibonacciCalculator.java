@@ -12,26 +12,6 @@
  */
 
 public class FibonacciCalculator {
-    public int number;
-    public int n;
-//
-//    public void setNumber(int number) {
-//        this.number = number;
-//    }
-//
-//    public int getNumber(int number) {
-//        return number;
-//    }
-//
-//    public void setN(int n) {
-//        this.n = n;
-//    }
-//
-//    public int getN(int n) {
-//        return n;
-//    }
-
-
     /**
      * Check to see if an integer is a perfect square
      * @param number integer to check
@@ -50,24 +30,30 @@ public class FibonacciCalculator {
      * @return true if n is a Fibonacci number
      */
     public static boolean isFibonacciNumber(int number){
-        return isPerfectSquare(5 * number * number + 4) ||
-                isPerfectSquare(5 * number * number - 4);
+        if(number >= 0){
+            return isPerfectSquare(5 * number * number + 4) || isPerfectSquare(5 * number * number - 4);
+
+        } else{
+            System.out.println("Number must be > 0");
+
+        } return false;
     }
 
     /**
      * Returns the nth fibonacci number
-     * @param n
-     * @return
+     * @param n number of fibonacci number in fibonacci sequence to return
+     * @return nth fibonacci number
      */
     public static int getFibonacciNumber(int n){
-        if(n == 0){
+        if(n <= 0){
             return 0;
-        }
-        else if(n == 1){
+
+        } else if(n == 1){
             return 1;
-        }
-        else{
+
+        } else{
             return getFibonacciNumber(n-2) + getFibonacciNumber(n-1);
+
         }
     }
 }

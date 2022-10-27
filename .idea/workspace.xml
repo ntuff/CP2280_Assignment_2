@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c18874c-221d-4301-97ec-d87f0a186e6c" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/src/PrimeNumberCalculatorApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FibonacciCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FibonacciCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FibonacciCalculatorApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FibonacciCalculatorApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FibonacciCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FibonacciCalculatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PrimeNumberCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrimeNumberCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PrimeNumberCalculatorApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrimeNumberCalculatorApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PrimeNumberCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrimeNumberCalculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +24,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -53,6 +57,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PrimeNumberCalculatorApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrimeNumberCalculatorApplication" />
+      <module name="CP2280_Assignment_2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PrimeNumberCalculatorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PrimeNumberCalculatorTest" />
       <module name="CP2280_Assignment_2" />
@@ -63,8 +74,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.PrimeNumberCalculatorTest" />
-        <item itemvalue="Application.FibonacciCalculatorApplication" />
         <item itemvalue="Application.FibonacciCalculatorTest" />
+        <item itemvalue="Application.FibonacciCalculatorApplication" />
+        <item itemvalue="Application.PrimeNumberCalculatorApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -138,5 +150,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="." />
     <option name="LAST_COMMIT_MESSAGE" value="." />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/CP2280_Assignment_2$FibonacciCalculatorApplication.ic" NAME="FibonacciCalculatorApplication Coverage Results" MODIFIED="1666892341676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

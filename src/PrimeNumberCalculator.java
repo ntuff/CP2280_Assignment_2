@@ -16,20 +16,18 @@ public class PrimeNumberCalculator {
      * @param number integer to check
      * @return lowest common denominator or prime number
      */
-    public static int getLowestCommonDenominator(int number){
-        //TODO: Change this to back to private
+    private static int getLowestCommonDenominator(int number){
         if(number == 0) {
             return 0;
         }
         if(number % 2 == 0) {
             return 2;
         }
-        for (int i = 3; i < Math.sqrt(number); i++){
+        for (int i = 3; i <= Math.sqrt(number); i++){
             if (number % i == 0){
                 return i;
             }
-        }
-        return number;
+        } return number;
     }
 
     /**
@@ -40,23 +38,22 @@ public class PrimeNumberCalculator {
     public static boolean isPrime(int number){
         if (number <= 1){
             return false;
-        }else{
-            return number == getLowestCommonDenominator(number);}
+        } else{
+            return number == getLowestCommonDenominator(number);
+        }
     }
 
     /**
-     *
-     * @param number
-     * @return
+     *  returns the unique prime factorization of a number
+     * @param number integer to get unique prime factorization from
+     * @return string of the numbers prime factors
      */
     public static String getUniquePrimeFactorization(int number){
-
         int i = getLowestCommonDenominator(number);
-        if (i == number) {
+        if (i == number){
             return String.valueOf(i);
         }
         number = number / i;
         return i + " * " + getUniquePrimeFactorization(number);
     }
-
 }
