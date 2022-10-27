@@ -12,13 +12,13 @@
  */
 
 public class FibonacciCalculator {
+
     /**
      * Check to see if an integer is a perfect square
      * @param number integer to check
      * @return true if n is a perfect square
      */
-    private static boolean isPerfectSquare(int number)
-    {
+    private static boolean isPerfectSquare(int number) {
         int square = (int) Math.sqrt(number);
         return (square*square == number);
     }
@@ -32,11 +32,11 @@ public class FibonacciCalculator {
     public static boolean isFibonacciNumber(int number){
         if(number >= 0){
             return isPerfectSquare(5 * number * number + 4) || isPerfectSquare(5 * number * number - 4);
-
         } else{
             System.out.println("Number must be > 0");
+        }
 
-        } return false;
+        return false;
     }
 
     /**
@@ -53,7 +53,7 @@ public class FibonacciCalculator {
 
         } else{
             return getFibonacciNumber(n-2) + getFibonacciNumber(n-1);
-
         }
     }
+
 }

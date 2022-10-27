@@ -1,6 +1,6 @@
 /**
  * A class that allows someone to determine if an integer is a prime number.            <p>
- * A natural number (positive Integer) is prime if it’s divisible by only 1 and itself. <p>
+ * A natural number (positive Integer) is prime if it’s divisible by only 1 and itself.
  * For example:                                                                         <p>
  * 2, 3, 5 and 7 are prime                                                              <p>
  * but:                                                                                 <p>
@@ -11,6 +11,20 @@
  */
 
 public class PrimeNumberCalculator {
+    /**
+     * Check to see if a number is prime
+     * @param number integer to check
+     * @return true if number is prime
+     */
+    public static boolean isPrime(int number){
+        if (number <= 1){
+            return false;
+
+        } else{
+            return number == getLowestCommonDenominator(number);
+        }
+    }
+
     /**
      * returns the number's lowest common denominator or number
      * @param number integer to check
@@ -27,20 +41,9 @@ public class PrimeNumberCalculator {
             if (number % i == 0){
                 return i;
             }
-        } return number;
-    }
-
-    /**
-     * Check to see if a number is prime
-     * @param number integer to check
-     * @return true if number is prime
-     */
-    public static boolean isPrime(int number){
-        if (number <= 1){
-            return false;
-        } else{
-            return number == getLowestCommonDenominator(number);
         }
+
+        return number;
     }
 
     /**
@@ -53,7 +56,9 @@ public class PrimeNumberCalculator {
         if (i == number){
             return String.valueOf(i);
         }
+
         number = number / i;
         return i + " * " + getUniquePrimeFactorization(number);
     }
+
 }
