@@ -55,7 +55,8 @@ public class PrimeNumberCalculator {
         if (i == number) {
             return String.valueOf(i);
         }
-        return i + " * " + getUniquePrimeFactorization(number / i);
+        number = number / i;
+        return i + " * " + getUniquePrimeFactorization(number);
     }
 
 }

@@ -24,6 +24,8 @@ public class PrimeNumberCalculatorTest {
         System.out.println(PrimeNumberCalculator.getUniquePrimeFactorization(0));
         System.out.println(PrimeNumberCalculator.getUniquePrimeFactorization(4));
         System.out.println(PrimeNumberCalculator.getUniquePrimeFactorization(25));
+        System.out.println(PrimeNumberCalculator.getUniquePrimeFactorization(266));
+
 
 
         //Test 2: Prints n Fibonacci numbers (ie. Print the first 25 Fibonacci numbers)
