@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4c18874c-221d-4301-97ec-d87f0a186e6c" name="Changes" comment=".">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrimeNumberCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrimeNumberCalculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,15 +29,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/noah.tuff/IdeaProjects/CP2280_Assignment_2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/noah.tuff/IdeaProjects/CP2280_Assignment_2&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.PrimeNumberCalculatorApplication">
+}</component>
+  <component name="RunManager" selected="Application.PrimeNumberCalculatorTest">
     <configuration name="FibonacciCalculatorApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FibonacciCalculatorApplication" />
       <module name="CP2280_Assignment_2" />
@@ -69,10 +68,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PrimeNumberCalculatorApplication" />
-        <item itemvalue="Application.FibonacciCalculatorApplication" />
         <item itemvalue="Application.PrimeNumberCalculatorTest" />
         <item itemvalue="Application.FibonacciCalculatorTest" />
+        <item itemvalue="Application.PrimeNumberCalculatorApplication" />
+        <item itemvalue="Application.FibonacciCalculatorApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -90,7 +89,8 @@
       <workItem from="1666365407776" duration="3291000" />
       <workItem from="1666650416895" duration="9455000" />
       <workItem from="1666782975899" duration="5568000" />
-      <workItem from="1666955862328" duration="2320000" />
+      <workItem from="1666955862328" duration="2332000" />
+      <workItem from="1666970041528" duration="2709000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1666187636343</created>
@@ -141,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666897046331</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary=".">
+      <created>1666961769363</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1666961769364</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
