@@ -31,13 +31,14 @@ public class PrimeNumberCalculator {
      * @return lowest common denominator or prime number
      */
     private static int getLowestCommonDenominator(int number){
+        // remove number == 0
         if(number == 0) {
             return 0;
         }
         if(number % 2 == 0) {
             return 2;
         }
-        for (int i = 3; i <= Math.sqrt(number); i++){
+        for (int i = 3; i <= Math.sqrt(number); i+=2){
             if (number % i == 0){
                 return i;
             }
